@@ -69,6 +69,7 @@ app.post('/submit', async (req, res) => {
     console.error('Vapi call failed:', err);
     return res.status(500).json({ error: 'Failed to place outbound call' });
   }
+
 });
 
 
